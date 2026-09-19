@@ -20,7 +20,7 @@ def plot_folium_map(df: pd.DataFrame):
             popup=f"""
 Taxon <i>Planomonospora</i> sp. <a href={row["nucseq"]}>{row["nucseq_id"]}</a>
 <br>
-Sample type: <a href={row["sampletype"]}>{row["envo_label"]}</a>
+Sample type: <a href={row["sampletype"]}>{row["sampletype_label"]}</a>
 <br>
 Sample date: {row['timepoint'].split('T')[0]}
 <br>
@@ -66,7 +66,7 @@ def plot_geopandas_map(df: pd.DataFrame):
         subset=['lat', 'lng']
     )
 
-    for sampletype, subset in label_df.groupby("envo_label"):
+    for sampletype, subset in label_df.groupby("sampletype_label"):
         subset.plot(
             ax=ax,
             markersize=30,
