@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_484ca7dcf52a88350a20184fee1896de {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_484ca7dcf52a88350a20184fee1896de" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_484ca7dcf52a88350a20184fee1896de = L.map(
+                "map_484ca7dcf52a88350a20184fee1896de",
+                {
+                    center: [22.685225714285714, 2.4105667857142845],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 3,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3fcb29fb9bdb92c5b2fe5bc4ce9769cf = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_3fcb29fb9bdb92c5b2fe5bc4ce9769cf.addTo(map_484ca7dcf52a88350a20184fee1896de);
+        
+    
+            var feature_group_406d8cabab8e6a8a9ad165417c093245 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_cb1ebf0cbcc54c74088c476ff7931141 = L.marker(
+                [13.60181, 1.92731],
+                {
+}
+            ).addTo(feature_group_406d8cabab8e6a8a9ad165417c093245);
+        
+    
+        var popup_6106430cd20aca6b1577ae312c669112 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4afeb81b20dbac20d4636d742a9e472 = $(`<div id="html_a4afeb81b20dbac20d4636d742a9e472" style="width: 100.0%; height: 100.0%;"> Taxon <i>Planomonospora</i> sp. <a href=https://www.ncbi.nlm.nih.gov/nuccore/MT375136>MT375136</a> <br> Sample type: <a href=http://purl.obolibrary.org/obo/ENVO_00005755>field soil</a> <br> Sample date: 1996-08-08 <br> <a href=https://w3id.org/np/RAtFI56F-cl1NPxJ93aDDX5c54V26XLFHSVOEj46fHI5w>See details ...</a> </div>`)[0];
+                popup_6106430cd20aca6b1577ae312c669112.setContent(html_a4afeb81b20dbac20d4636d742a9e472);
+            
+        
+
+        marker_cb1ebf0cbcc54c74088c476ff7931141.bindPopup(popup_6106430cd20aca6b1577ae312c669112)
+        ;
+
+        
+    
+    
+            feature_group_406d8cabab8e6a8a9ad165417c093245.addTo(map_484ca7dcf52a88350a20184fee1896de);
+        
+    
+            var feature_group_309cde8ae19adbcec472474ccc43f243 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_6d4261d4d5dfe62135740529e10c9a99 = L.marker(
+                [10.54304, -85.69817],
+                {
+}
+            ).addTo(feature_group_309cde8ae19adbcec472474ccc43f243);
+        
+    
+        var popup_bbcb26dd6b39479dae7e93d8a4b388c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b059a465e9b2b2dadce36bde1ae84b8e = $(`<div id="html_b059a465e9b2b2dadce36bde1ae84b8e" style="width: 100.0%; height: 100.0%;"> Taxon <i>Planomonospora</i> sp. <a href=https://www.ncbi.nlm.nih.gov/nuccore/MT375135>MT375135</a> <br> Sample type: <a href=http://purl.obolibrary.org/obo/ENVO_00001998>soil</a> <br> Sample date: 1996-07-17 <br> <a href=https://w3id.org/np/RAhuUXN19mu3ZCrL6Pg6BOjoLuylwfj4B13HGJPQBmFC0>See details ...</a> </div>`)[0];
+                popup_bbcb26dd6b39479dae7e93d8a4b388c8.setContent(html_b059a465e9b2b2dadce36bde1ae84b8e);
+            
+        
+
+        marker_6d4261d4d5dfe62135740529e10c9a99.bindPopup(popup_bbcb26dd6b39479dae7e93d8a4b388c8)
+        ;
+
+        
+    
+    
+            var marker_e191c16df6edb7a4caae9a067124d406 = L.marker(
+                [14.8258, 5.6529],
+                {
+}
+            ).addTo(feature_group_309cde8ae19adbcec472474ccc43f243);
+        
+    
+        var popup_281e094cb6a25ab4312bb0df70486dda = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3bb7a252df1e9b8f61bf6572a7cbd945 = $(`<div id="html_3bb7a252df1e9b8f61bf6572a7cbd945" style="width: 100.0%; height: 100.0%;"> Taxon <i>Planomonospora</i> sp. <a href=https://www.ncbi.nlm.nih.gov/nuccore/MT375168>MT375168</a> <br> Sample type: <a href=http://purl.obolibrary.org/obo/ENVO_00001998>soil</a> <br> Sample date: 1996-08-08 <br> <a href=https://w3id.org/np/RAogZu3NI-77gI1zhPOlmTNtWRqx2BixImxxn6s-wLa_g>See details ...</a> </div>`)[0];
+                popup_281e094cb6a25ab4312bb0df70486dda.setContent(html_3bb7a252df1e9b8f61bf6572a7cbd945);
+            
+        
+
+        marker_e191c16df6edb7a4caae9a067124d406.bindPopup(popup_281e094cb6a25ab4312bb0df70486dda)
+        ;
+
+        
+    
+    
+            var marker_054dd872200f3f16bc360ef00be42d70 = L.marker(
+                [14.8258, 5.6529],
+                {
+}
+            ).addTo(feature_group_309cde8ae19adbcec472474ccc43f243);
+        
+    
+        var popup_c9db38ddf5e7df2b841876b6ee3c0cbe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0ca6c1b16e95868a927290ae3947aa69 = $(`<div id="html_0ca6c1b16e95868a927290ae3947aa69" style="width: 100.0%; height: 100.0%;"> Taxon <i>Planomonospora</i> sp. <a href=https://www.ncbi.nlm.nih.gov/nuccore/MT375138>MT375138</a> <br> Sample type: <a href=http://purl.obolibrary.org/obo/ENVO_00001998>soil</a> <br> Sample date: 1996-08-08 <br> <a href=https://w3id.org/np/RANB_Llnqlj57G6M7ybCerAxJT_DlOx5lvRBg2ny_IoaE>See details ...</a> </div>`)[0];
+                popup_c9db38ddf5e7df2b841876b6ee3c0cbe.setContent(html_0ca6c1b16e95868a927290ae3947aa69);
+            
+        
+
+        marker_054dd872200f3f16bc360ef00be42d70.bindPopup(popup_c9db38ddf5e7df2b841876b6ee3c0cbe)
+        ;
+
+        
+    
+    
+            var marker_391404f998893272acf5319986de20ff = L.marker(
+                [14.8258, 5.6529],
+                {
+}
+            ).addTo(feature_group_309cde8ae19adbcec472474ccc43f243);
+        
+    
+        var popup_7c8bd6d503fa8942b2a7b5d4412cb9e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d98758405772427406b8eabe287ff40 = $(`<div id="html_1d98758405772427406b8eabe287ff40" style="width: 100.0%; height: 100.0%;"> Taxon <i>Planomonospora</i> sp. <a href=https://www.ncbi.nlm.nih.gov/nuccore/MT375140>MT375140</a> <br> Sample type: <a href=http://purl.obolibrary.org/obo/ENVO_00001998>soil</a> <br> Sample date: 1996-08-08 <br> <a href=https://w3id.org/np/RAFDbMymXLpkhXKwMn50LXD5XzVuV7a864GCZqECKUKj8>See details ...</a> </div>`)[0];
+                popup_7c8bd6d503fa8942b2a7b5d4412cb9e9.setContent(html_1d98758405772427406b8eabe287ff40);
+            
+        
+
+        marker_391404f998893272acf5319986de20ff.bindPopup(popup_7c8bd6d503fa8942b2a7b5d4412cb9e9)
+        ;
+
+        
+    
+    
+            var marker_0dfcd8ad13f776cf534b86a4c1c5cb83 = L.marker(
+                [32.90485, 35.80725],
+                {
+}
+            ).addTo(feature_group_309cde8ae19adbcec472474ccc43f243);
+        
+    
+        var popup_d697fa21d81781700ea0adc50afe7733 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f00d77cdcf6d9393731c414bbd061dd = $(`<div id="html_7f00d77cdcf6d9393731c414bbd061dd" style="width: 100.0%; height: 100.0%;"> Taxon <i>Planomonospora</i> sp. <a href=https://www.ncbi.nlm.nih.gov/nuccore/MT375142>MT375142</a> <br> Sample type: <a href=http://purl.obolibrary.org/obo/ENVO_00001998>soil</a> <br> Sample date: 1997-08-31 <br> <a href=https://w3id.org/np/RAfMDqzcvqnlgCmiTUJO9peBiAtk0RpW6s1MKQGTqS1lc>See details ...</a> </div>`)[0];
+                popup_d697fa21d81781700ea0adc50afe7733.setContent(html_7f00d77cdcf6d9393731c414bbd061dd);
+            
+        
+
+        marker_0dfcd8ad13f776cf534b86a4c1c5cb83.bindPopup(popup_d697fa21d81781700ea0adc50afe7733)
+        ;
+
+        
+    
+    
+            var marker_173634ca28266d583f372d86a15a2f29 = L.marker(
+                [40.66852, 16.60159],
+                {
+}
+            ).addTo(feature_group_309cde8ae19adbcec472474ccc43f243);
+        
+    
+        var popup_5482233d9e5c845f62dc58c98f048ebf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6959f84951f96cd8d66b2081e14d131 = $(`<div id="html_f6959f84951f96cd8d66b2081e14d131" style="width: 100.0%; height: 100.0%;"> Taxon <i>Planomonospora</i> sp. <a href=https://www.ncbi.nlm.nih.gov/nuccore/MT375154>MT375154</a> <br> Sample type: <a href=http://purl.obolibrary.org/obo/ENVO_00001998>soil</a> <br> Sample date: 2001-03-01 <br> <a href=https://w3id.org/np/RAj5FgMCkiNjKofSqgGWZXeMd6FX6rP4HIaV-qJ80skBg>See details ...</a> </div>`)[0];
+                popup_5482233d9e5c845f62dc58c98f048ebf.setContent(html_f6959f84951f96cd8d66b2081e14d131);
+            
+        
+
+        marker_173634ca28266d583f372d86a15a2f29.bindPopup(popup_5482233d9e5c845f62dc58c98f048ebf)
+        ;
+
+        
+    
+    
+            var marker_42c47507c1c13819b9a8263a8276d0f7 = L.marker(
+                [22.0, 79.0],
+                {
+}
+            ).addTo(feature_group_309cde8ae19adbcec472474ccc43f243);
+        
+    
+        var popup_d6c9037c7f775d9b0a690273f62bad70 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e7861c84f82fe1a0483f9bf22f9561a = $(`<div id="html_1e7861c84f82fe1a0483f9bf22f9561a" style="width: 100.0%; height: 100.0%;"> Taxon <i>Planomonospora</i> sp. <a href=https://www.ncbi.nlm.nih.gov/nuccore/MT375165>MT375165</a> <br> Sample type: <a href=http://purl.obolibrary.org/obo/ENVO_00001998>soil</a> <br> Sample date: 1978-03-01 <br> <a href=https://w3id.org/np/RAmdEzU-QGZhw5f5KDhcU8BebZxxuFPOFZobEEU-kzcwM>See details ...</a> </div>`)[0];
+                popup_d6c9037c7f775d9b0a690273f62bad70.setContent(html_1e7861c84f82fe1a0483f9bf22f9561a);
+            
+        
+
+        marker_42c47507c1c13819b9a8263a8276d0f7.bindPopup(popup_d6c9037c7f775d9b0a690273f62bad70)
+        ;
+
+        
+    
+    
+            var marker_863c18c064bb18b8bbeb5aef66a3242e = L.marker(
+                [14.8258, 5.6529],
+                {
+}
+            ).addTo(feature_group_309cde8ae19adbcec472474ccc43f243);
+        
+    
+        var popup_2749a7b084687590937318109e30b823 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0fa75bdc123b4ec94a8b6d05700b196a = $(`<div id="html_0fa75bdc123b4ec94a8b6d05700b196a" style="width: 100.0%; height: 100.0%;"> Taxon <i>Planomonospora</i> sp. <a href=https://www.ncbi.nlm.nih.gov/nuccore/MT375139>MT375139</a> <br> Sample type: <a href=http://purl.obolibrary.org/obo/ENVO_00001998>soil</a> <br> Sample date: 1996-08-08 <br> <a href=https://w3id.org/np/RAx2kI70eexsYzE3Bq59k0FuuePzv7E4AFb5CpDDojBmc>See details ...</a> </div>`)[0];
+                popup_2749a7b084687590937318109e30b823.setContent(html_0fa75bdc123b4ec94a8b6d05700b196a);
+            
+        
+
+        marker_863c18c064bb18b8bbeb5aef66a3242e.bindPopup(popup_2749a7b084687590937318109e30b823)
+        ;
+
+        
+    
+    
+            var marker_bfe456b324591fed732f00e21c64d595 = L.marker(
+                [35.88636, 14.40312],
+                {
+}
+            ).addTo(feature_group_309cde8ae19adbcec472474ccc43f243);
+        
+    
+        var popup_906035e19cf178f9ef85c8906e9e3039 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e72bac3fefeb280855b1c8e275417153 = $(`<div id="html_e72bac3fefeb280855b1c8e275417153" style="width: 100.0%; height: 100.0%;"> Taxon <i>Planomonospora</i> sp. <a href=https://www.ncbi.nlm.nih.gov/nuccore/MT375169>MT375169</a> <br> Sample type: <a href=http://purl.obolibrary.org/obo/ENVO_00001998>soil</a> <br> Sample date: 1998-08-31 <br> <a href=https://w3id.org/np/RAy5PkRj7RV00BX8bQjDIHTjeolB5-5WXRwA-2vPlN7xA>See details ...</a> </div>`)[0];
+                popup_906035e19cf178f9ef85c8906e9e3039.setContent(html_e72bac3fefeb280855b1c8e275417153);
+            
+        
+
+        marker_bfe456b324591fed732f00e21c64d595.bindPopup(popup_906035e19cf178f9ef85c8906e9e3039)
+        ;
+
+        
+    
+    
+            var marker_c00e0ad120fd6c0a1b15a7fbbb8eec22 = L.marker(
+                [44.78395, 8.18094],
+                {
+}
+            ).addTo(feature_group_309cde8ae19adbcec472474ccc43f243);
+        
+    
+        var popup_f7dcbc7a83f54037b6c2ff2b52068d38 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c1992cc9333b2506a241a13ef08b203 = $(`<div id="html_0c1992cc9333b2506a241a13ef08b203" style="width: 100.0%; height: 100.0%;"> Taxon <i>Planomonospora</i> sp. <a href=https://www.ncbi.nlm.nih.gov/nuccore/MT375145>MT375145</a> <br> Sample type: <a href=http://purl.obolibrary.org/obo/ENVO_00001998>soil</a> <br> Sample date: 2001-04-19 <br> <a href=https://w3id.org/np/RA2O5FpolNd3GSZ7DFPoiatu2cjfb8S6HWjMJ8tIsZME8>See details ...</a> </div>`)[0];
+                popup_f7dcbc7a83f54037b6c2ff2b52068d38.setContent(html_0c1992cc9333b2506a241a13ef08b203);
+            
+        
+
+        marker_c00e0ad120fd6c0a1b15a7fbbb8eec22.bindPopup(popup_f7dcbc7a83f54037b6c2ff2b52068d38)
+        ;
+
+        
+    
+    
+            var marker_4c6a5d2718cd3329e5e46318ab45540f = L.marker(
+                [27.25738, 33.81291],
+                {
+}
+            ).addTo(feature_group_309cde8ae19adbcec472474ccc43f243);
+        
+    
+        var popup_9451bd0bd23f483286f9bd4dd1345d6a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15eb2a8c6d125363f0b33cb0902ad4fc = $(`<div id="html_15eb2a8c6d125363f0b33cb0902ad4fc" style="width: 100.0%; height: 100.0%;"> Taxon <i>Planomonospora</i> sp. <a href=https://www.ncbi.nlm.nih.gov/nuccore/MT375146>MT375146</a> <br> Sample type: <a href=http://purl.obolibrary.org/obo/ENVO_00001998>soil</a> <br> Sample date: 2000-09-07 <br> <a href=https://w3id.org/np/RAVTlR8XtlwMxNITYVtH3pwnbtF0vP_qJl1r9OAM5UMYs>See details ...</a> </div>`)[0];
+                popup_9451bd0bd23f483286f9bd4dd1345d6a.setContent(html_15eb2a8c6d125363f0b33cb0902ad4fc);
+            
+        
+
+        marker_4c6a5d2718cd3329e5e46318ab45540f.bindPopup(popup_9451bd0bd23f483286f9bd4dd1345d6a)
+        ;
+
+        
+    
+    
+            var marker_4a879e1751f8a766e845ad3597169d2d = L.marker(
+                [22.0, 79.0],
+                {
+}
+            ).addTo(feature_group_309cde8ae19adbcec472474ccc43f243);
+        
+    
+        var popup_ed9f90391ef99a365341ff885088def7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6a8bcae68a136f86020695bea7f8409d = $(`<div id="html_6a8bcae68a136f86020695bea7f8409d" style="width: 100.0%; height: 100.0%;"> Taxon <i>Planomonospora</i> sp. <a href=https://www.ncbi.nlm.nih.gov/nuccore/MT375147>MT375147</a> <br> Sample type: <a href=http://purl.obolibrary.org/obo/ENVO_00001998>soil</a> <br> Sample date: 1978-03-01 <br> <a href=https://w3id.org/np/RAjTZvHEQDtIIKx4eTMRgYAGc79xQMBL24LxAcKfG-NxI>See details ...</a> </div>`)[0];
+                popup_ed9f90391ef99a365341ff885088def7.setContent(html_6a8bcae68a136f86020695bea7f8409d);
+            
+        
+
+        marker_4a879e1751f8a766e845ad3597169d2d.bindPopup(popup_ed9f90391ef99a365341ff885088def7)
+        ;
+
+        
+    
+    
+            var marker_9cf6d7fa53d256b89b27c793ff5d75de = L.marker(
+                [39.80031, 18.35674],
+                {
+}
+            ).addTo(feature_group_309cde8ae19adbcec472474ccc43f243);
+        
+    
+        var popup_623304762e920b8b4fd8019da210c884 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_991257991c66ea90f1f63bebbcf81346 = $(`<div id="html_991257991c66ea90f1f63bebbcf81346" style="width: 100.0%; height: 100.0%;"> Taxon <i>Planomonospora</i> sp. <a href=https://www.ncbi.nlm.nih.gov/nuccore/MT375161>MT375161</a> <br> Sample type: <a href=http://purl.obolibrary.org/obo/ENVO_00001998>soil</a> <br> Sample date: 1993-08-12 <br> <a href=https://w3id.org/np/RACr8w1G3baPzBWp3-I4VQSRRS9RE_DICuUS7joB51lLA>See details ...</a> </div>`)[0];
+                popup_623304762e920b8b4fd8019da210c884.setContent(html_991257991c66ea90f1f63bebbcf81346);
+            
+        
+
+        marker_9cf6d7fa53d256b89b27c793ff5d75de.bindPopup(popup_623304762e920b8b4fd8019da210c884)
+        ;
+
+        
+    
+    
+            var marker_09215236e358308800c28bf2a22c6a08 = L.marker(
+                [-3.75, -64.5],
+                {
+}
+            ).addTo(feature_group_309cde8ae19adbcec472474ccc43f243);
+        
+    
+        var popup_d929ec540db63cf8c83f5a089a5d0ad7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4cf2a0b0195a943d19720de164d0300 = $(`<div id="html_c4cf2a0b0195a943d19720de164d0300" style="width: 100.0%; height: 100.0%;"> Taxon <i>Planomonospora</i> sp. <a href=https://www.ncbi.nlm.nih.gov/nuccore/MT375148>MT375148</a> <br> Sample type: <a href=http://purl.obolibrary.org/obo/ENVO_00001998>soil</a> <br> Sample date: 1994-09-26 <br> <a href=https://w3id.org/np/RA5pRBqh2QHc5Fcf1OT2wSI7zLILfU8SeBUC2QiS5Rrms>See details ...</a> </div>`)[0];
+                popup_d929ec540db63cf8c83f5a089a5d0ad7.setContent(html_c4cf2a0b0195a943d19720de164d0300);
+            
+        
+
+        marker_09215236e358308800c28bf2a22c6a08.bindPopup(popup_d929ec540db63cf8c83f5a089a5d0ad7)
+        ;
+
+        
+    
+    
+            var marker_0e10b7c3655b1cecfab2a3aa4ffdd60c = L.marker(
+                [33.98512, 71.55784],
+                {
+}
+            ).addTo(feature_group_309cde8ae19adbcec472474ccc43f243);
+        
+    
+        var popup_9905614c323976c368ccfdb50c04fc21 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc177365630f9bf46fb6fbb080715ee9 = $(`<div id="html_dc177365630f9bf46fb6fbb080715ee9" style="width: 100.0%; height: 100.0%;"> Taxon <i>Planomonospora</i> sp. <a href=https://www.ncbi.nlm.nih.gov/nuccore/MT375155>MT375155</a> <br> Sample type: <a href=http://purl.obolibrary.org/obo/ENVO_00001998>soil</a> <br> Sample date: 1993-08-12 <br> <a href=https://w3id.org/np/RA-ulz7Q-Fb1Ua-yg9jFvQZ16ghq9woCg6EsMZn25QGPU>See details ...</a> </div>`)[0];
+                popup_9905614c323976c368ccfdb50c04fc21.setContent(html_dc177365630f9bf46fb6fbb080715ee9);
+            
+        
+
+        marker_0e10b7c3655b1cecfab2a3aa4ffdd60c.bindPopup(popup_9905614c323976c368ccfdb50c04fc21)
+        ;
+
+        
+    
+    
+            var marker_28b4613cc141152b7460a08bc733a9f9 = L.marker(
+                [-2.75, 33.08333],
+                {
+}
+            ).addTo(feature_group_309cde8ae19adbcec472474ccc43f243);
+        
+    
+        var popup_220ba5df02334dbf9671f95f12fcc2e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ced0aac08d437b4527a57e8b6c93de47 = $(`<div id="html_ced0aac08d437b4527a57e8b6c93de47" style="width: 100.0%; height: 100.0%;"> Taxon <i>Planomonospora</i> sp. <a href=https://www.ncbi.nlm.nih.gov/nuccore/MT375162>MT375162</a> <br> Sample type: <a href=http://purl.obolibrary.org/obo/ENVO_00001998>soil</a> <br> Sample date: 1995-03-19 <br> <a href=https://w3id.org/np/RAMx0r9dsvs-wkAucPAuvD6hrQTzo7h6TMY7M0hISN83M>See details ...</a> </div>`)[0];
+                popup_220ba5df02334dbf9671f95f12fcc2e5.setContent(html_ced0aac08d437b4527a57e8b6c93de47);
+            
+        
+
+        marker_28b4613cc141152b7460a08bc733a9f9.bindPopup(popup_220ba5df02334dbf9671f95f12fcc2e5)
+        ;
+
+        
+    
+    
+            var marker_8273580cf48d73669be51f0b5db39afe = L.marker(
+                [10.54304, -85.69817],
+                {
+}
+            ).addTo(feature_group_309cde8ae19adbcec472474ccc43f243);
+        
+    
+        var popup_3fb0ce4d90f0e3ef3c7e1d2e7de37479 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_19c33bdf5b7183da2afb66d62455ae68 = $(`<div id="html_19c33bdf5b7183da2afb66d62455ae68" style="width: 100.0%; height: 100.0%;"> Taxon <i>Planomonospora</i> sp. <a href=https://www.ncbi.nlm.nih.gov/nuccore/MT375164>MT375164</a> <br> Sample type: <a href=http://purl.obolibrary.org/obo/ENVO_00001998>soil</a> <br> Sample date: 1996-07-16 <br> <a href=https://w3id.org/np/RAEzVG1SgMfFNcd6gnyBz27iLm5vW1QClIaTf25skDCcg>See details ...</a> </div>`)[0];
+                popup_3fb0ce4d90f0e3ef3c7e1d2e7de37479.setContent(html_19c33bdf5b7183da2afb66d62455ae68);
+            
+        
+
+        marker_8273580cf48d73669be51f0b5db39afe.bindPopup(popup_3fb0ce4d90f0e3ef3c7e1d2e7de37479)
+        ;
+
+        
+    
+    
+            var marker_278014b6eb78563746f6148b8690c284 = L.marker(
+                [10.54304, -85.69817],
+                {
+}
+            ).addTo(feature_group_309cde8ae19adbcec472474ccc43f243);
+        
+    
+        var popup_e964c2ee9b9de37914bfdba2211a3ce7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_85988a16acd35adb31056b736ee9a0e6 = $(`<div id="html_85988a16acd35adb31056b736ee9a0e6" style="width: 100.0%; height: 100.0%;"> Taxon <i>Planomonospora</i> sp. <a href=https://www.ncbi.nlm.nih.gov/nuccore/MT375163>MT375163</a> <br> Sample type: <a href=http://purl.obolibrary.org/obo/ENVO_00001998>soil</a> <br> Sample date: 1996-07-16 <br> <a href=https://w3id.org/np/RAQ7x2tMdC3FCk_uLaLq5SFS09Fm-pTmLzfIc3-HfjTjQ>See details ...</a> </div>`)[0];
+                popup_e964c2ee9b9de37914bfdba2211a3ce7.setContent(html_85988a16acd35adb31056b736ee9a0e6);
+            
+        
+
+        marker_278014b6eb78563746f6148b8690c284.bindPopup(popup_e964c2ee9b9de37914bfdba2211a3ce7)
+        ;
+
+        
+    
+    
+            var marker_7d4e3d9bc82810895208f0b0d46c4b5b = L.marker(
+                [-3.75, -64.5],
+                {
+}
+            ).addTo(feature_group_309cde8ae19adbcec472474ccc43f243);
+        
+    
+        var popup_2b747cdf9764200bac22cdc7bd603847 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c1367145f1cf196626a0d8ab9a217353 = $(`<div id="html_c1367145f1cf196626a0d8ab9a217353" style="width: 100.0%; height: 100.0%;"> Taxon <i>Planomonospora</i> sp. <a href=https://www.ncbi.nlm.nih.gov/nuccore/MT375167>MT375167</a> <br> Sample type: <a href=http://purl.obolibrary.org/obo/ENVO_00001998>soil</a> <br> Sample date: 1995-08-13 <br> <a href=https://w3id.org/np/RAtbJ_hLV7Ih6YAGGBH1x7lqNU4i5OvPnuLvVexWJRkSg>See details ...</a> </div>`)[0];
+                popup_2b747cdf9764200bac22cdc7bd603847.setContent(html_c1367145f1cf196626a0d8ab9a217353);
+            
+        
+
+        marker_7d4e3d9bc82810895208f0b0d46c4b5b.bindPopup(popup_2b747cdf9764200bac22cdc7bd603847)
+        ;
+
+        
+    
+    
+            var marker_826707ad25188b94f539fee352a4b502 = L.marker(
+                [13.0, -85.0],
+                {
+}
+            ).addTo(feature_group_309cde8ae19adbcec472474ccc43f243);
+        
+    
+        var popup_593864e7f48c6b6cd57528e47ea3deaf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea949ff4bb9c6cd31bc3bdd49edc4415 = $(`<div id="html_ea949ff4bb9c6cd31bc3bdd49edc4415" style="width: 100.0%; height: 100.0%;"> Taxon <i>Planomonospora</i> sp. <a href=https://www.ncbi.nlm.nih.gov/nuccore/MT375166>MT375166</a> <br> Sample type: <a href=http://purl.obolibrary.org/obo/ENVO_00001998>soil</a> <br> Sample date: 1996-11-12 <br> <a href=https://w3id.org/np/RAIgn61mQWhgb1Vn2y3JtOMPzOcER8KMvy2rFzILepPzg>See details ...</a> </div>`)[0];
+                popup_593864e7f48c6b6cd57528e47ea3deaf.setContent(html_ea949ff4bb9c6cd31bc3bdd49edc4415);
+            
+        
+
+        marker_826707ad25188b94f539fee352a4b502.bindPopup(popup_593864e7f48c6b6cd57528e47ea3deaf)
+        ;
+
+        
+    
+    
+            var marker_50e9460bb7d11b4b67ade12e01b5c8a4 = L.marker(
+                [13.0, -85.0],
+                {
+}
+            ).addTo(feature_group_309cde8ae19adbcec472474ccc43f243);
+        
+    
+        var popup_6eb08ee70774ee20930666557cf35cbb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a5a2a4282b18f94dd0bdf3ac19701aff = $(`<div id="html_a5a2a4282b18f94dd0bdf3ac19701aff" style="width: 100.0%; height: 100.0%;"> Taxon <i>Planomonospora</i> sp. <a href=https://www.ncbi.nlm.nih.gov/nuccore/JABTEY000000000>JABTEY000000000</a> <br> Sample type: <a href=http://purl.obolibrary.org/obo/ENVO_00001998>soil</a> <br> Sample date: 1994-02-02 <br> <a href=https://w3id.org/np/RA20ihAJaxH6pfslxLoFbNtT6Fxj5DvNqxeatq6Y66oBo>See details ...</a> </div>`)[0];
+                popup_6eb08ee70774ee20930666557cf35cbb.setContent(html_a5a2a4282b18f94dd0bdf3ac19701aff);
+            
+        
+
+        marker_50e9460bb7d11b4b67ade12e01b5c8a4.bindPopup(popup_6eb08ee70774ee20930666557cf35cbb)
+        ;
+
+        
+    
+    
+            feature_group_309cde8ae19adbcec472474ccc43f243.addTo(map_484ca7dcf52a88350a20184fee1896de);
+        
+    
+            var feature_group_66b42bf679a9467c05c60323fea39de6 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_4624d716a06ba7b5049e9183d12c9e68 = L.marker(
+                [43.32004, 11.33283],
+                {
+}
+            ).addTo(feature_group_66b42bf679a9467c05c60323fea39de6);
+        
+    
+        var popup_a9fa95b7fd3b7d7e6f181914c33b49e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c3f38a00d09f88ce8049425b0d764a9 = $(`<div id="html_2c3f38a00d09f88ce8049425b0d764a9" style="width: 100.0%; height: 100.0%;"> Taxon <i>Planomonospora</i> sp. <a href=https://www.ncbi.nlm.nih.gov/nuccore/MT375137>MT375137</a> <br> Sample type: <a href=http://purl.obolibrary.org/obo/ENVO_00000116>vineyard</a> <br> Sample date: 1996-08-18 <br> <a href=https://w3id.org/np/RAYdmOfEugOmHa4UZWx_OhxeikHyH_XEExkV0NisNwT38>See details ...</a> </div>`)[0];
+                popup_a9fa95b7fd3b7d7e6f181914c33b49e3.setContent(html_2c3f38a00d09f88ce8049425b0d764a9);
+            
+        
+
+        marker_4624d716a06ba7b5049e9183d12c9e68.bindPopup(popup_a9fa95b7fd3b7d7e6f181914c33b49e3)
+        ;
+
+        
+    
+    
+            feature_group_66b42bf679a9467c05c60323fea39de6.addTo(map_484ca7dcf52a88350a20184fee1896de);
+        
+    
+            var feature_group_8ee65f83e761875426d5fab8b467979f = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_347f0f1e142132ea3dfc0d5f183497c4 = L.marker(
+                [22.0, 79.0],
+                {
+}
+            ).addTo(feature_group_8ee65f83e761875426d5fab8b467979f);
+        
+    
+        var popup_217577d857b81970f7cf1a1db96a459b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e86fa16b7cca782a1d9bee0a4841e418 = $(`<div id="html_e86fa16b7cca782a1d9bee0a4841e418" style="width: 100.0%; height: 100.0%;"> Taxon <i>Planomonospora</i> sp. <a href=https://www.ncbi.nlm.nih.gov/nuccore/MT375141>MT375141</a> <br> Sample type: <a href=http://purl.obolibrary.org/obo/ENVO_00000296>rice field</a> <br> Sample date: 1997-08-31 <br> <a href=https://w3id.org/np/RAkFAFieMTZF7B_QLY8xhBe8cnzR8z4fpgkY03BgUQyxo>See details ...</a> </div>`)[0];
+                popup_217577d857b81970f7cf1a1db96a459b.setContent(html_e86fa16b7cca782a1d9bee0a4841e418);
+            
+        
+
+        marker_347f0f1e142132ea3dfc0d5f183497c4.bindPopup(popup_217577d857b81970f7cf1a1db96a459b)
+        ;
+
+        
+    
+    
+            feature_group_8ee65f83e761875426d5fab8b467979f.addTo(map_484ca7dcf52a88350a20184fee1896de);
+        
+    
+            var feature_group_1e1a70e33536cc333592cac16f81b1df = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_325160bc86e4e3bd67d67068b2142392 = L.marker(
+                [22.0, 79.0],
+                {
+}
+            ).addTo(feature_group_1e1a70e33536cc333592cac16f81b1df);
+        
+    
+        var popup_f18bd8c6f91d46868ae6611c90251361 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4af99ca480bfb8bc9a309bde3096e1bc = $(`<div id="html_4af99ca480bfb8bc9a309bde3096e1bc" style="width: 100.0%; height: 100.0%;"> Taxon <i>Planomonospora</i> sp. <a href=https://www.ncbi.nlm.nih.gov/nuccore/MT375143>MT375143</a> <br> Sample type: <a href=http://purl.obolibrary.org/obo/ENVO_00005740>paddy field soil</a> <br> Sample date: 1998-08-31 <br> <a href=https://w3id.org/np/RAHhF5BDO49it5LzoR66HrMZ3XjUR8Nen_IXuAlKWIpuI>See details ...</a> </div>`)[0];
+                popup_f18bd8c6f91d46868ae6611c90251361.setContent(html_4af99ca480bfb8bc9a309bde3096e1bc);
+            
+        
+
+        marker_325160bc86e4e3bd67d67068b2142392.bindPopup(popup_f18bd8c6f91d46868ae6611c90251361)
+        ;
+
+        
+    
+    
+            feature_group_1e1a70e33536cc333592cac16f81b1df.addTo(map_484ca7dcf52a88350a20184fee1896de);
+        
+    
+            var feature_group_f45de5a6ef4827de7bc58cc4280b5e2d = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_916de6e3030b2c09746752446575191f = L.marker(
+                [44.64783, 8.95746],
+                {
+}
+            ).addTo(feature_group_f45de5a6ef4827de7bc58cc4280b5e2d);
+        
+    
+        var popup_dd0c56433b34e274086768bcd94a36ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a376201702fa432cecbc51e0e6c39795 = $(`<div id="html_a376201702fa432cecbc51e0e6c39795" style="width: 100.0%; height: 100.0%;"> Taxon <i>Planomonospora</i> sp. <a href=https://www.ncbi.nlm.nih.gov/nuccore/MT375159>MT375159</a> <br> Sample type: <a href=http://purl.obolibrary.org/obo/ENVO_00002259>agricultural soil</a> <br> Sample date: 1993-08-12 <br> <a href=https://w3id.org/np/RAJVfmSQ4SIfkd2Z4tWU_UAVQJRF7IlT1-_DvLhvGvOIo>See details ...</a> </div>`)[0];
+                popup_dd0c56433b34e274086768bcd94a36ff.setContent(html_a376201702fa432cecbc51e0e6c39795);
+            
+        
+
+        marker_916de6e3030b2c09746752446575191f.bindPopup(popup_dd0c56433b34e274086768bcd94a36ff)
+        ;
+
+        
+    
+    
+            var marker_3568fd66c997376b35602e54d660ee78 = L.marker(
+                [44.64783, 8.95746],
+                {
+}
+            ).addTo(feature_group_f45de5a6ef4827de7bc58cc4280b5e2d);
+        
+    
+        var popup_60cb1268188b8a8ce709ff04752d43ab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_265768185c9455bc6ca0cb3285ec4488 = $(`<div id="html_265768185c9455bc6ca0cb3285ec4488" style="width: 100.0%; height: 100.0%;"> Taxon <i>Planomonospora</i> sp. <a href=https://www.ncbi.nlm.nih.gov/nuccore/MT375160>MT375160</a> <br> Sample type: <a href=http://purl.obolibrary.org/obo/ENVO_00002259>agricultural soil</a> <br> Sample date: 1993-08-12 <br> <a href=https://w3id.org/np/RApYfSyU4VYe6HLem9bJ92QTOD0qd9RIsLT2RX4ppIdVY>See details ...</a> </div>`)[0];
+                popup_60cb1268188b8a8ce709ff04752d43ab.setContent(html_265768185c9455bc6ca0cb3285ec4488);
+            
+        
+
+        marker_3568fd66c997376b35602e54d660ee78.bindPopup(popup_60cb1268188b8a8ce709ff04752d43ab)
+        ;
+
+        
+    
+    
+            var marker_fbdca1b3e2c1d4da46109c4a3078c43f = L.marker(
+                [39.0, 22.0],
+                {
+}
+            ).addTo(feature_group_f45de5a6ef4827de7bc58cc4280b5e2d);
+        
+    
+        var popup_fa56bc99e7783b6920be9a2990c4191e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aeddf5971dcdc03a5d9634310dfbbf72 = $(`<div id="html_aeddf5971dcdc03a5d9634310dfbbf72" style="width: 100.0%; height: 100.0%;"> Taxon <i>Planomonospora</i> sp. <a href=https://www.ncbi.nlm.nih.gov/nuccore/JABTEZ000000000>JABTEZ000000000</a> <br> Sample type: <a href=http://purl.obolibrary.org/obo/ENVO_00002259>agricultural soil</a> <br> Sample date: 1992-08-12 <br> <a href=https://w3id.org/np/RAYzEgCwwfZhN-DNjxvqlMowTBd9OSuwXNL5HvrY2xqes>See details ...</a> </div>`)[0];
+                popup_fa56bc99e7783b6920be9a2990c4191e.setContent(html_aeddf5971dcdc03a5d9634310dfbbf72);
+            
+        
+
+        marker_fbdca1b3e2c1d4da46109c4a3078c43f.bindPopup(popup_fa56bc99e7783b6920be9a2990c4191e)
+        ;
+
+        
+    
+    
+            feature_group_f45de5a6ef4827de7bc58cc4280b5e2d.addTo(map_484ca7dcf52a88350a20184fee1896de);
+        
+    
+            var layer_control_6fb9495a74dc9193cfa1df73a0e5ea01_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_3fcb29fb9bdb92c5b2fe5bc4ce9769cf,
+                },
+                overlays :  {
+                    "field soil" : feature_group_406d8cabab8e6a8a9ad165417c093245,
+                    "soil" : feature_group_309cde8ae19adbcec472474ccc43f243,
+                    "vineyard" : feature_group_66b42bf679a9467c05c60323fea39de6,
+                    "rice field" : feature_group_8ee65f83e761875426d5fab8b467979f,
+                    "paddy field soil" : feature_group_1e1a70e33536cc333592cac16f81b1df,
+                    "agricultural soil" : feature_group_f45de5a6ef4827de7bc58cc4280b5e2d,
+                },
+            };
+            let layer_control_6fb9495a74dc9193cfa1df73a0e5ea01 = L.control.layers(
+                layer_control_6fb9495a74dc9193cfa1df73a0e5ea01_layers.base_layers,
+                layer_control_6fb9495a74dc9193cfa1df73a0e5ea01_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": false,
+  "autoZIndex": true,
+}
+            ).addTo(map_484ca7dcf52a88350a20184fee1896de);
+
+        
+</script>
+</html>
