@@ -9,7 +9,7 @@ data = pd.read_csv("data_formatted_sampling.csv")
 data["ecosystem_label"] = data["ecosystem_label"].fillna("unknown biome")
 
 
-# 1. base map 
+# 1. base map
 
 m = folium.Map(
     location=[data["lat"].mean(), data["lng"].mean()],
@@ -34,7 +34,7 @@ folium.TileLayer(
 folium.LayerControl(collapsed=False).add_to(m)
 
 
-# 2. colour scale for altitude 
+# 2. colour scale for altitude
 
 colormap = cm.LinearColormap(
     colors=["#2c7bb6", "#ffffbf", "#d7191c"],
@@ -61,6 +61,12 @@ for _, row in data.iterrows():
         altitude_text = f"{int(altitude)} m"
         colour = colormap(altitude)
 
+    # sampling year, taken from the date (e.g. "2026-06-13" -> 2026)
+    if pd.isna(row["date"]):
+        year = None
+    else:
+        year = int(str(row["date"])[:4])
+
     popup_html = f"""
 <b>{row['label']}</b>
 <br>
@@ -81,6 +87,7 @@ Sampling date: {row['date']}
         "altitude": altitude,
         "biome": row["ecosystem_label"],
         "date": row["date"],
+        "year": year,
         "colour": colour,
         "popup": popup_html,
         "tooltip": f"{row['ecosystem_label']}, {altitude_text}",
@@ -90,8 +97,23 @@ Sampling date: {row['date']}
 alt_min = int(math.floor(data["altitude"].min() / 10) * 10)
 alt_max = int(math.ceil(data["altitude"].max() / 10) * 10)
 
+# year slider range: at least 2000-2026, wider if the data goes beyond that
+YEAR_START = 2000
+YEAR_END = 2026
 
-#  4. one checkbox per biome 
+years_in_data = []
+for sample in samples:
+    if sample["year"] is not None:
+        years_in_data.append(sample["year"])
+
+year_min = YEAR_START
+year_max = YEAR_END
+if len(years_in_data) > 0:
+    year_min = min(YEAR_START, min(years_in_data))
+    year_max = max(YEAR_END, max(years_in_data))
+
+
+#  4. one checkbox per biome
 
 biome_counts = data["ecosystem_label"].value_counts()
 
@@ -126,6 +148,19 @@ panel_html = """
   Max: <span id="alt-max-label"></span> m
   <input type="range" id="alt-max" style="width: 100%;"
          min="__ALT_MIN__" max="__ALT_MAX__" step="10" value="__ALT_MAX__">
+
+  <hr>
+
+  <b>Filter by sampling year</b>
+  <br><br>
+
+  From: <span id="year-min-label"></span>
+  <input type="range" id="year-min" style="width: 100%;"
+         min="__YEAR_MIN__" max="__YEAR_MAX__" step="1" value="__YEAR_MIN__">
+
+  To: <span id="year-max-label"></span>
+  <input type="range" id="year-max" style="width: 100%;"
+         min="__YEAR_MIN__" max="__YEAR_MAX__" step="1" value="__YEAR_MAX__">
 
   <hr>
 
@@ -179,6 +214,10 @@ window.addEventListener("load", function () {
     var maxSlider = document.getElementById("alt-max");
     var minLabel = document.getElementById("alt-min-label");
     var maxLabel = document.getElementById("alt-max-label");
+    var yearMinSlider = document.getElementById("year-min");
+    var yearMaxSlider = document.getElementById("year-max");
+    var yearMinLabel = document.getElementById("year-min-label");
+    var yearMaxLabel = document.getElementById("year-max-label");
     var countLabel = document.getElementById("sample-count");
     var biomeBoxes = document.getElementsByClassName("biome-box");
     var allButton = document.getElementById("biome-all");
@@ -199,6 +238,18 @@ window.addEventListener("load", function () {
         minLabel.textContent = minAlt;
         maxLabel.textContent = maxAlt;
 
+        // --- sampling year range ---
+        var minYear = Number(yearMinSlider.value);
+        var maxYear = Number(yearMaxSlider.value);
+
+        if (minYear > maxYear) {
+            yearMaxSlider.value = minYear;
+            maxYear = minYear;
+        }
+
+        yearMinLabel.textContent = minYear;
+        yearMaxLabel.textContent = maxYear;
+
         // --- which biomes are ticked? ---
         var activeBiomes = [];
         for (var i = 0; i < biomeBoxes.length; i++) {
@@ -216,8 +267,10 @@ window.addEventListener("load", function () {
             var altitudeOk = (sample.altitude === null) ||
                              (sample.altitude >= minAlt && sample.altitude <= maxAlt);
             var biomeOk = activeBiomes.includes(sample.biome);
+            var yearOk = (sample.year === null) ||
+                         (sample.year >= minYear && sample.year <= maxYear);
 
-            if (altitudeOk && biomeOk) {
+            if (altitudeOk && biomeOk && yearOk) {
                 markers[i].marker.addTo(map);
                 visible = visible + 1;
             } else {
@@ -231,6 +284,8 @@ window.addEventListener("load", function () {
     // (d) run the filter whenever something changes, and once at the start
     minSlider.addEventListener("input", applyFilter);
     maxSlider.addEventListener("input", applyFilter);
+    yearMinSlider.addEventListener("input", applyFilter);
+    yearMaxSlider.addEventListener("input", applyFilter);
 
     for (var i = 0; i < biomeBoxes.length; i++) {
         biomeBoxes[i].addEventListener("change", applyFilter);
@@ -260,6 +315,8 @@ window.addEventListener("load", function () {
 
 panel_html = panel_html.replace("__ALT_MIN__", str(alt_min))
 panel_html = panel_html.replace("__ALT_MAX__", str(alt_max))
+panel_html = panel_html.replace("__YEAR_MIN__", str(year_min))
+panel_html = panel_html.replace("__YEAR_MAX__", str(year_max))
 panel_html = panel_html.replace("__BIOME_CHECKBOXES__", biome_checkboxes)
 
 filter_js = filter_js.replace("__MAP_NAME__", m.get_name())

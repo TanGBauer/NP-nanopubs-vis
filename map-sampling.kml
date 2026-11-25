@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <name>Sampling nanopublications</name>
+        <description>39 sampling nanopublications. Colour = altitude, blue = 200 m, red = 2190 m.</description>
+        <LookAt>
+            <longitude>14.218076087179485</longitude>
+            <latitude>46.86087003846155</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>65</tilt>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <range>40000</range>
+        </LookAt>
+        <Folder id="3">
+            <Style id="142">
+                <IconStyle id="143">
+                    <color>ffbe2840</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="144">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="145">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="149">
+                <IconStyle id="150">
+                    <color>ffc1283d</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="151">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="152">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="212">
+                <IconStyle id="213">
+                    <color>ffbc2842</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="214">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="215">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="240">
+                <IconStyle id="241">
+                    <color>ffe0281e</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="242">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="243">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="268">
+                <IconStyle id="269">
+                    <color>ffe52819</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="270">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="271">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <name>agricultural ecosystem</name>
+            <Placemark id="140">
+                <name>Sampling from agricultural ecosystem</name>
+                <description>&lt;b&gt;Sampling from agricultural ecosystem&lt;/b&gt;&lt;br&gt;Date: 2026-08-01&lt;br&gt;Altitude: 700 m&lt;br&gt;Coordinates: 46.83272, 12.75184&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00000077'&gt;agricultural ecosystem&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00005755'&gt;field soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RAleT9puXFXMWc-YrbdVFTlAyLWvOjsYqxvVJQ9cXKBvc'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="141">
+                    <when>2026-08-01</when>
+                </TimeStamp>
+                <styleUrl>#142</styleUrl>
+                <Point id="139">
+                    <coordinates>12.75184,46.83272,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+            <Placemark id="147">
+                <name>Sampling from agricultural ecosystem</name>
+                <description>&lt;b&gt;Sampling from agricultural ecosystem&lt;/b&gt;&lt;br&gt;Date: 2026-07-31&lt;br&gt;Altitude: 680 m&lt;br&gt;Coordinates: 46.82727, 12.81473&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00000077'&gt;agricultural ecosystem&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00005755'&gt;field soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RANGN-ZgmHRxdLterF2kmLiWuB_erj4cc0yh2ISL38HHA'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="148">
+                    <when>2026-07-31</when>
+                </TimeStamp>
+                <styleUrl>#149</styleUrl>
+                <Point id="146">
+                    <coordinates>12.81473,46.82727,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+            <Placemark id="210">
+                <name>Sampling from agricultural ecosystem</name>
+                <description>&lt;b&gt;Sampling from agricultural ecosystem&lt;/b&gt;&lt;br&gt;Date: 2026-07-05&lt;br&gt;Altitude: 720 m&lt;br&gt;Coordinates: 46.58287, 14.41877&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00000077'&gt;agricultural ecosystem&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00005755'&gt;field soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RApHfXtlpVrmaa2jp8QDZAQTmo0lOXJxHlk3elQ7IXxgU'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="211">
+                    <when>2026-07-05</when>
+                </TimeStamp>
+                <styleUrl>#212</styleUrl>
+                <Point id="209">
+                    <coordinates>14.418773,46.582866,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+            <Placemark id="238">
+                <name>Sampling from agricultural ecosystem</name>
+                <description>&lt;b&gt;Sampling from agricultural ecosystem&lt;/b&gt;&lt;br&gt;Date: 2026-07-23&lt;br&gt;Altitude: 440 m&lt;br&gt;Coordinates: 46.59961, 14.35844&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00000077'&gt;agricultural ecosystem&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00002259'&gt;agricultural soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RA7flsxq3wciNxyUu-SybibPLyEHT9W6HYYbPzVs6eEqc'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="239">
+                    <when>2026-07-23</when>
+                </TimeStamp>
+                <styleUrl>#240</styleUrl>
+                <Point id="237">
+                    <coordinates>14.358441,46.599611,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+            <Placemark id="266">
+                <name>Sampling from agricultural ecosystem</name>
+                <description>&lt;b&gt;Sampling from agricultural ecosystem&lt;/b&gt;&lt;br&gt;Date: 2026-09-19&lt;br&gt;Altitude: 400 m&lt;br&gt;Coordinates: 47.21344, 15.81904&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00000077'&gt;agricultural ecosystem&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00005755'&gt;field soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RA1i97Ml0P0TAZXFuL7qZpgVnVV4KU1gPQDieWjzAW9ZM'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="267">
+                    <when>2026-09-19</when>
+                </TimeStamp>
+                <styleUrl>#268</styleUrl>
+                <Point id="265">
+                    <coordinates>15.819044,47.213436,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="4">
+            <Style id="44">
+                <IconStyle id="45">
+                    <color>ff0028ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="46">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="47">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="51">
+                <IconStyle id="52">
+                    <color>ff2528d9</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="53">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="54">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="86">
+                <IconStyle id="87">
+                    <color>ff3e28c0</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="88">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="89">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="100">
+                <IconStyle id="101">
+                    <color>ff2528d9</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="102">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="103">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="107">
+                <IconStyle id="108">
+                    <color>ff1428ea</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="109">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="110">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="170">
+                <IconStyle id="171">
+                    <color>ff0328fb</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="172">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="173">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="177">
+                <IconStyle id="178">
+                    <color>ff1e28e0</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="179">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="180">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <name>alpine tundra ecosystem</name>
+            <Placemark id="42">
+                <name>Sampling from alpine tundra ecosystem</name>
+                <description>&lt;b&gt;Sampling from alpine tundra ecosystem&lt;/b&gt;&lt;br&gt;Date: 2026-06-07&lt;br&gt;Altitude: 2190 m&lt;br&gt;Coordinates: 46.55264, 13.23928&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_01001371'&gt;alpine tundra ecosystem&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00005741'&gt;alpine soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RAclAz9ld2HJyUVTXlufCHmslJOvEGpRrRLVQhvUiB9fA'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="43">
+                    <when>2026-06-07</when>
+                </TimeStamp>
+                <styleUrl>#44</styleUrl>
+                <Point id="41">
+                    <coordinates>13.239283,46.55264,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+            <Placemark id="49">
+                <name>Sampling from alpine tundra ecosystem</name>
+                <description>&lt;b&gt;Sampling from alpine tundra ecosystem&lt;/b&gt;&lt;br&gt;Date: 2026-06-07&lt;br&gt;Altitude: 1900 m&lt;br&gt;Coordinates: 46.55801, 13.23288&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_01001371'&gt;alpine tundra ecosystem&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00005741'&gt;alpine soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RAv6Wdfply6g6INT8-2NLOMSYKEDqhxeQOxbZz8ho3FEI'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="50">
+                    <when>2026-06-07</when>
+                </TimeStamp>
+                <styleUrl>#51</styleUrl>
+                <Point id="48">
+                    <coordinates>13.232881,46.558009,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+            <Placemark id="84">
+                <name>Sampling from alpine tundra ecosystem</name>
+                <description>&lt;b&gt;Sampling from alpine tundra ecosystem&lt;/b&gt;&lt;br&gt;Date: 2026-08-16&lt;br&gt;Altitude: 1700 m&lt;br&gt;Coordinates: 46.44038, 14.18018&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_01001371'&gt;alpine tundra ecosystem&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00005741'&gt;alpine soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RAxn9ZU3hvzig4ceWMvolCbDdHIYJkokn1Dvrpx-eZlpQ'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="85">
+                    <when>2026-08-16</when>
+                </TimeStamp>
+                <styleUrl>#86</styleUrl>
+                <Point id="83">
+                    <coordinates>14.18018,46.44038,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+            <Placemark id="98">
+                <name>Sampling from alpine tundra ecosystem</name>
+                <description>&lt;b&gt;Sampling from alpine tundra ecosystem&lt;/b&gt;&lt;br&gt;Date: 2026-08-16&lt;br&gt;Altitude: 1900 m&lt;br&gt;Coordinates: 46.44175, 14.19058&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_01001371'&gt;alpine tundra ecosystem&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00005741'&gt;alpine soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RAv-N7pbB8M95iZq_LqUEylKdGE7iO6gesQMCeZwM0wgs'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="99">
+                    <when>2026-08-16</when>
+                </TimeStamp>
+                <styleUrl>#100</styleUrl>
+                <Point id="97">
+                    <coordinates>14.190577,46.441748,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+            <Placemark id="105">
+                <name>Sampling from alpine tundra ecosystem</name>
+                <description>&lt;b&gt;Sampling from alpine tundra ecosystem&lt;/b&gt;&lt;br&gt;Date: 2026-08-12&lt;br&gt;Altitude: 2030 m&lt;br&gt;Coordinates: 46.60520, 13.68869&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_01001371'&gt;alpine tundra ecosystem&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00005741'&gt;alpine soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RAAPgfdKThsTaS2mK3ZnH2g7yLTXsvOcyYPb-G0qVUkK8'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="106">
+                    <when>2026-08-12</when>
+                </TimeStamp>
+                <styleUrl>#107</styleUrl>
+                <Point id="104">
+                    <coordinates>13.688686,46.605203,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+            <Placemark id="168">
+                <name>Sampling from alpine tundra ecosystem</name>
+                <description>&lt;b&gt;Sampling from alpine tundra ecosystem&lt;/b&gt;&lt;br&gt;Date: 2026-08-05&lt;br&gt;Altitude: 2160 m&lt;br&gt;Coordinates: 46.86590, 13.81694&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_01001371'&gt;alpine tundra ecosystem&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00005741'&gt;alpine soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RAwwJNO9utd2qEl5mDz8xUHYVck3LqrGa39BTl3xTXZU0'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="169">
+                    <when>2026-08-05</when>
+                </TimeStamp>
+                <styleUrl>#170</styleUrl>
+                <Point id="167">
+                    <coordinates>13.816941,46.865903,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+            <Placemark id="175">
+                <name>Sampling from alpine tundra ecosystem</name>
+                <description>&lt;b&gt;Sampling from alpine tundra ecosystem&lt;/b&gt;&lt;br&gt;Date: 2026-08-18&lt;br&gt;Altitude: 1950 m&lt;br&gt;Coordinates: 46.60575, 13.68854&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_01001371'&gt;alpine tundra ecosystem&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00005741'&gt;alpine soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RAiUJgrAIG-hykmNt3c8lJBc9atTlFSgcXfQAtH9PWFqU'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="176">
+                    <when>2026-08-18</when>
+                </TimeStamp>
+                <styleUrl>#177</styleUrl>
+                <Point id="174">
+                    <coordinates>13.688537,46.60575,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="5">
+            <Style id="226">
+                <IconStyle id="227">
+                    <color>ffe52819</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="228">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="229">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <name>area of developed open space</name>
+            <Placemark id="224">
+                <name>Sampling from area of developed open space</name>
+                <description>&lt;b&gt;Sampling from area of developed open space&lt;/b&gt;&lt;br&gt;Date: 2026-07-23&lt;br&gt;Altitude: 400 m&lt;br&gt;Coordinates: 46.56825, 14.48964&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_01000883'&gt;area of developed open space&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_01001616'&gt;bare soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RAGZ0_34bJjsRXplRvxeWrghRsIKEhWJYOfgbyixNYbDY'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="225">
+                    <when>2026-07-23</when>
+                </TimeStamp>
+                <styleUrl>#226</styleUrl>
+                <Point id="223">
+                    <coordinates>14.489645,46.568252,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="6">
+            <Style id="191">
+                <IconStyle id="192">
+                    <color>ff952869</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="193">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="194">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="233">
+                <IconStyle id="234">
+                    <color>ff952869</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="235">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="236">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <name>area of developed space with high usage intensity</name>
+            <Placemark id="189">
+                <name>Sampling from area of developed space with high usage intensity</name>
+                <description>&lt;b&gt;Sampling from area of developed space with high usage intensity&lt;/b&gt;&lt;br&gt;Date: 2026-07-21&lt;br&gt;Altitude: 1020 m&lt;br&gt;Coordinates: 47.47603, 12.63765&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_01000886'&gt;area of developed space with high usage intensity&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00002116'&gt;contaminated soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RAVXz-Nsei1UjH0v9hV8Pz4zwIX-3gGCJVlZwUAQk2Gjo'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="190">
+                    <when>2026-07-21</when>
+                </TimeStamp>
+                <styleUrl>#191</styleUrl>
+                <Point id="188">
+                    <coordinates>12.6376496,47.4760284,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+            <Placemark id="231">
+                <name>Sampling from area of developed space with high usage intensity</name>
+                <description>&lt;b&gt;Sampling from area of developed space with high usage intensity&lt;/b&gt;&lt;br&gt;Date: 2026-07-21&lt;br&gt;Altitude: 1020 m&lt;br&gt;Coordinates: 47.47570, 12.63805&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_01000886'&gt;area of developed space with high usage intensity&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00002116'&gt;contaminated soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RA_oFAhu4wI_mlsbF6oN9gtkCkpu2NpIUq5W_U1jFDwCE'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="232">
+                    <when>2026-07-21</when>
+                </TimeStamp>
+                <styleUrl>#233</styleUrl>
+                <Point id="230">
+                    <coordinates>12.6380505,47.4756953,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="7">
+            <Style id="65">
+                <IconStyle id="66">
+                    <color>ffee2810</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="67">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="68">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="79">
+                <IconStyle id="80">
+                    <color>ffd82826</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="81">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="82">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="93">
+                <IconStyle id="94">
+                    <color>ffe0281e</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="95">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="96">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <name>forest biome</name>
+            <Placemark id="63">
+                <name>Sampling from forest biome</name>
+                <description>&lt;b&gt;Sampling from forest biome&lt;/b&gt;&lt;br&gt;Date: 2026-06-20&lt;br&gt;Altitude: 330 m&lt;br&gt;Coordinates: 48.14856, 15.93842&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_01000174'&gt;forest biome&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00002261'&gt;forest soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RAA9X-nwIoixiSPg2nAiDl8bgDnq-CrXkDM8ncM_fpl80'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="64">
+                    <when>2026-06-20</when>
+                </TimeStamp>
+                <styleUrl>#65</styleUrl>
+                <Point id="62">
+                    <coordinates>15.938418,48.148564,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+            <Placemark id="77">
+                <name>Sampling from forest biome</name>
+                <description>&lt;b&gt;Sampling from forest biome&lt;/b&gt;&lt;br&gt;Date: 2026-07-12&lt;br&gt;Altitude: 500 m&lt;br&gt;Coordinates: 47.97733, 16.02911&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_01000174'&gt;forest biome&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00002261'&gt;forest soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RAsW-jhmm5jtdOlLlc8PnVw_ezC99bK2PoXc8skdEr5OA'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="78">
+                    <when>2026-07-12</when>
+                </TimeStamp>
+                <styleUrl>#79</styleUrl>
+                <Point id="76">
+                    <coordinates>16.0291127,47.9773327,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+            <Placemark id="91">
+                <name>Sampling from forest biome</name>
+                <description>&lt;b&gt;Sampling from forest biome&lt;/b&gt;&lt;br&gt;Date: 2026-08-27&lt;br&gt;Altitude: 440 m&lt;br&gt;Coordinates: 46.60927, 14.58542&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_01000174'&gt;forest biome&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00002261'&gt;forest soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RAz1SZdnfH9cmlxT7DQK9gYc8nc710J5H9uw2lZjKXAqI'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="92">
+                    <when>2026-08-27</when>
+                </TimeStamp>
+                <styleUrl>#93</styleUrl>
+                <Point id="90">
+                    <coordinates>14.585423,46.609266,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="8">
+            <Style id="184">
+                <IconStyle id="185">
+                    <color>ffbc2842</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="186">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="187">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="198">
+                <IconStyle id="199">
+                    <color>ffa2285c</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="200">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="201">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="219">
+                <IconStyle id="220">
+                    <color>ffd52829</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="221">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="222">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="282">
+                <IconStyle id="283">
+                    <color>ffff2800</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="284">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="285">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <name>meadow ecosystem</name>
+            <Placemark id="182">
+                <name>Sampling from meadow ecosystem</name>
+                <description>&lt;b&gt;Sampling from meadow ecosystem&lt;/b&gt;&lt;br&gt;Date: 2026-08-01&lt;br&gt;Altitude: 720 m&lt;br&gt;Coordinates: 46.86466, 12.68608&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00000108'&gt;meadow ecosystem&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00005761'&gt;meadow soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RAWaidEpCbZBkIeRt1DPkjaVWKvSI1tmM66icXeacvbXQ'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="183">
+                    <when>2026-08-01</when>
+                </TimeStamp>
+                <styleUrl>#184</styleUrl>
+                <Point id="181">
+                    <coordinates>12.68608,46.86466,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+            <Placemark id="196">
+                <name>Sampling from meadow ecosystem</name>
+                <description>&lt;b&gt;Sampling from meadow ecosystem&lt;/b&gt;&lt;br&gt;Date: 2026-08-02&lt;br&gt;Altitude: 920 m&lt;br&gt;Coordinates: 46.47749, 14.42287&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00000108'&gt;meadow ecosystem&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00005761'&gt;meadow soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RAVSNPBNQr1v4PFUG-6pOhirCFJBaG98h2Pxn4qN2NRt8'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="197">
+                    <when>2026-08-02</when>
+                </TimeStamp>
+                <styleUrl>#198</styleUrl>
+                <Point id="195">
+                    <coordinates>14.422868,46.477489,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+            <Placemark id="217">
+                <name>Sampling from meadow ecosystem</name>
+                <description>&lt;b&gt;Sampling from meadow ecosystem&lt;/b&gt;&lt;br&gt;Date: 2026-07-23&lt;br&gt;Altitude: 520 m&lt;br&gt;Coordinates: 46.57881, 14.43245&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00000108'&gt;meadow ecosystem&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00005761'&gt;meadow soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RA_qc_s6Zp1UsjK45pCJbiacY8F-75RyOHkvBeDqQnw0Q'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="218">
+                    <when>2026-07-23</when>
+                </TimeStamp>
+                <styleUrl>#219</styleUrl>
+                <Point id="216">
+                    <coordinates>14.432447,46.578812,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+            <Placemark id="280">
+                <name>Sampling from meadow ecosystem</name>
+                <description>&lt;b&gt;Sampling from meadow ecosystem&lt;/b&gt;&lt;br&gt;Date: 2026-09-18&lt;br&gt;Altitude: 200 m&lt;br&gt;Coordinates: 48.68721, 16.67092&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00000108'&gt;meadow ecosystem&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00005761'&gt;meadow soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RApJ2fLZsSEUMIYMuhWAaaSiVjCqhy1XGXlYzLsD7Hx0U'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="281">
+                    <when>2026-09-18</when>
+                </TimeStamp>
+                <styleUrl>#282</styleUrl>
+                <Point id="279">
+                    <coordinates>16.6709211,48.6872135,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="9">
+            <Style id="58">
+                <IconStyle id="59">
+                    <color>ffbb2843</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="60">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="61">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <name>montane biome</name>
+            <Placemark id="56">
+                <name>Sampling from montane biome</name>
+                <description>&lt;b&gt;Sampling from montane biome&lt;/b&gt;&lt;br&gt;Date: 2026-06-19&lt;br&gt;Altitude: 730 m&lt;br&gt;Coordinates: 46.58293, 14.41919&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_01001836'&gt;montane biome&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00002259'&gt;agricultural soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RAD0Cle2QlM3-x12llJTDlHh1bERZa-b9tlGML8FHFrBo'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="57">
+                    <when>2026-06-19</when>
+                </TimeStamp>
+                <styleUrl>#58</styleUrl>
+                <Point id="55">
+                    <coordinates>14.419193,46.5829322,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="10">
+            <Style id="37">
+                <IconStyle id="38">
+                    <color>ffbb2843</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="39">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="40">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="114">
+                <IconStyle id="115">
+                    <color>ffbb2843</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="116">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="117">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="121">
+                <IconStyle id="122">
+                    <color>ff7e2880</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="123">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="124">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="128">
+                <IconStyle id="129">
+                    <color>ffb2284c</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="130">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="131">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="135">
+                <IconStyle id="136">
+                    <color>ffa72857</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="137">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="138">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="156">
+                <IconStyle id="157">
+                    <color>ff982866</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="158">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="159">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="163">
+                <IconStyle id="164">
+                    <color>ff7e2880</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="165">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="166">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="254">
+                <IconStyle id="255">
+                    <color>ffd52829</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="256">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="257">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="261">
+                <IconStyle id="262">
+                    <color>ffe52819</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="263">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="264">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="275">
+                <IconStyle id="276">
+                    <color>ffa2285c</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="277">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="278">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <name>montane forest</name>
+            <Placemark id="35">
+                <name>Sampling from montane forest</name>
+                <description>&lt;b&gt;Sampling from montane forest&lt;/b&gt;&lt;br&gt;Date: 2026-05-25&lt;br&gt;Altitude: 730 m&lt;br&gt;Coordinates: 46.51504, 14.32432&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_01000435'&gt;montane forest&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00005769'&gt;mountain forest soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RAZsSurXKse2cedxZS9M_t8Y26m7R91p_z0wpRC08sZR8'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="36">
+                    <when>2026-05-25</when>
+                </TimeStamp>
+                <styleUrl>#37</styleUrl>
+                <Point id="34">
+                    <coordinates>14.324323,46.515039,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+            <Placemark id="112">
+                <name>Sampling from montane forest</name>
+                <description>&lt;b&gt;Sampling from montane forest&lt;/b&gt;&lt;br&gt;Date: 2026-08-11&lt;br&gt;Altitude: 730 m&lt;br&gt;Coordinates: 46.58727, 14.42614&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_01000435'&gt;montane forest&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00002261'&gt;forest soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RApqv9M1gX2a_9diaL6LAHN-GksYWV2dxOLxvn2ftG0XE'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="113">
+                    <when>2026-08-11</when>
+                </TimeStamp>
+                <styleUrl>#114</styleUrl>
+                <Point id="111">
+                    <coordinates>14.426145,46.587265,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+            <Placemark id="119">
+                <name>Sampling from montane forest</name>
+                <description>&lt;b&gt;Sampling from montane forest&lt;/b&gt;&lt;br&gt;Date: 2026-08-18&lt;br&gt;Altitude: 1200 m&lt;br&gt;Coordinates: 46.66672, 13.88112&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_01000435'&gt;montane forest&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00005769'&gt;mountain forest soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RAiikkIhvYunpKg8YGwd-Dbgo4ozo-XYDiD_SWa9f6LEE'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="120">
+                    <when>2026-08-18</when>
+                </TimeStamp>
+                <styleUrl>#121</styleUrl>
+                <Point id="118">
+                    <coordinates>13.881124,46.666722,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+            <Placemark id="126">
+                <name>Sampling from montane forest</name>
+                <description>&lt;b&gt;Sampling from montane forest&lt;/b&gt;&lt;br&gt;Date: 2026-08-01&lt;br&gt;Altitude: 800 m&lt;br&gt;Coordinates: 46.92592, 12.58326&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_01000435'&gt;montane forest&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00002261'&gt;forest soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RAb4-OeM-TNMN4GVm7_Jogu1d9QkOfRjR4N9tDHchE1Oc'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="127">
+                    <when>2026-08-01</when>
+                </TimeStamp>
+                <styleUrl>#128</styleUrl>
+                <Point id="125">
+                    <coordinates>12.58326,46.92592,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+            <Placemark id="133">
+                <name>Sampling from montane forest</name>
+                <description>&lt;b&gt;Sampling from montane forest&lt;/b&gt;&lt;br&gt;Date: 2026-08-01&lt;br&gt;Altitude: 880 m&lt;br&gt;Coordinates: 46.79809, 12.72857&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_01000435'&gt;montane forest&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00002261'&gt;forest soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RAXyZ3jQjB6Z-3dFauoST1Sod6RbTsvamZUcveAtgD4L0'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="134">
+                    <when>2026-08-01</when>
+                </TimeStamp>
+                <styleUrl>#135</styleUrl>
+                <Point id="132">
+                    <coordinates>12.72857,46.79809,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+            <Placemark id="154">
+                <name>Sampling from montane forest</name>
+                <description>&lt;b&gt;Sampling from montane forest&lt;/b&gt;&lt;br&gt;Date: 2026-07-25&lt;br&gt;Altitude: 1000 m&lt;br&gt;Coordinates: 46.51368, 14.24921&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_01000435'&gt;montane forest&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00005769'&gt;mountain forest soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RAwHV8naNJNfAcDvVofv422ZIjzAzpv9UExMd169QBwAs'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="155">
+                    <when>2026-07-25</when>
+                </TimeStamp>
+                <styleUrl>#156</styleUrl>
+                <Point id="153">
+                    <coordinates>14.249208,46.513676,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+            <Placemark id="161">
+                <name>Sampling from montane forest</name>
+                <description>&lt;b&gt;Sampling from montane forest&lt;/b&gt;&lt;br&gt;Date: 2026-08-18&lt;br&gt;Altitude: 1200 m&lt;br&gt;Coordinates: 46.66672, 13.88121&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_01000435'&gt;montane forest&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00005769'&gt;mountain forest soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RACmvQ83WaR1DLoTh-Uzu4Ob_GTC_buKArYp1AYx21ChA'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="162">
+                    <when>2026-08-18</when>
+                </TimeStamp>
+                <styleUrl>#163</styleUrl>
+                <Point id="160">
+                    <coordinates>13.881212,46.666717,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+            <Placemark id="252">
+                <name>Sampling from montane forest</name>
+                <description>&lt;b&gt;Sampling from montane forest&lt;/b&gt;&lt;br&gt;Date: 2026-07-23&lt;br&gt;Altitude: 520 m&lt;br&gt;Coordinates: 46.58386, 14.75893&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_01000435'&gt;montane forest&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00002261'&gt;forest soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RA8rqcnXeKgW7N7Cvb_vT_f-XYxEUYKyZhU7qrfcjowVQ'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="253">
+                    <when>2026-07-23</when>
+                </TimeStamp>
+                <styleUrl>#254</styleUrl>
+                <Point id="251">
+                    <coordinates>14.758935,46.583859,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+            <Placemark id="259">
+                <name>Sampling from montane forest</name>
+                <description>&lt;b&gt;Sampling from montane forest&lt;/b&gt;&lt;br&gt;Date: 2026-09-19&lt;br&gt;Altitude: 400 m&lt;br&gt;Coordinates: 47.27440, 15.97135&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_01000435'&gt;montane forest&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00002261'&gt;forest soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RABMCr8nGiGc_70MfJUCmos-kk2mqguwIrUCfFUIQOrck'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="260">
+                    <when>2026-09-19</when>
+                </TimeStamp>
+                <styleUrl>#261</styleUrl>
+                <Point id="258">
+                    <coordinates>15.971348,47.274404,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+            <Placemark id="273">
+                <name>Sampling from montane forest</name>
+                <description>&lt;b&gt;Sampling from montane forest&lt;/b&gt;&lt;br&gt;Date: 2026-05-15&lt;br&gt;Altitude: 920 m&lt;br&gt;Coordinates: 46.51643, 14.25784&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_01000435'&gt;montane forest&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00005769'&gt;mountain forest soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RAES1cc8dM5epjYIAxRdiGi5NloifLK_EAV8nQJ4EDtBQ'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="274">
+                    <when>2026-05-15</when>
+                </TimeStamp>
+                <styleUrl>#275</styleUrl>
+                <Point id="272">
+                    <coordinates>14.257842,46.516431,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="11">
+            <Style id="23">
+                <IconStyle id="24">
+                    <color>ffb92845</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="25">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="26">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="30">
+                <IconStyle id="31">
+                    <color>ffb92845</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="32">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="33">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="205">
+                <IconStyle id="206">
+                    <color>ffd52829</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="207">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="208">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <name>moor</name>
+            <Placemark id="21">
+                <name>Sampling from moor</name>
+                <description>&lt;b&gt;Sampling from moor&lt;/b&gt;&lt;br&gt;Date: 2026-05-02&lt;br&gt;Altitude: 740 m&lt;br&gt;Coordinates: 46.57571, 14.39520&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00000231'&gt;moor&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_01001185'&gt;acidic soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RAkTebchO9eSXeN8eTc8ENxRkiUVz0Z5Ml66QKBdru7Mk'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="22">
+                    <when>2026-05-02</when>
+                </TimeStamp>
+                <styleUrl>#23</styleUrl>
+                <Point id="20">
+                    <coordinates>14.395198,46.575707,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+            <Placemark id="28">
+                <name>Sampling from moor</name>
+                <description>&lt;b&gt;Sampling from moor&lt;/b&gt;&lt;br&gt;Date: 2026-05-02&lt;br&gt;Altitude: 740 m&lt;br&gt;Coordinates: 46.57571, 14.39520&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00000231'&gt;moor&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_01001185'&gt;acidic soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RA4op5a-aVkYMYjVpcwGWEsmhwFRnYaaUiF1NfjKbyPKo'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="29">
+                    <when>2026-05-02</when>
+                </TimeStamp>
+                <styleUrl>#30</styleUrl>
+                <Point id="27">
+                    <coordinates>14.395198,46.575707,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+            <Placemark id="203">
+                <name>Sampling from moor</name>
+                <description>&lt;b&gt;Sampling from moor&lt;/b&gt;&lt;br&gt;Date: 2026-07-23&lt;br&gt;Altitude: 520 m&lt;br&gt;Coordinates: 46.57881, 14.43245&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00000231'&gt;moor&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_01001185'&gt;acidic soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RA6mxtP_1xm9oXA4qxlWylkdS5IqfZNUo3Edqxdc9NgEA'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="204">
+                    <when>2026-07-23</when>
+                </TimeStamp>
+                <styleUrl>#205</styleUrl>
+                <Point id="202">
+                    <coordinates>14.432447,46.578812,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="12">
+            <Style id="16">
+                <IconStyle id="17">
+                    <color>ffbb2843</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="18">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="19">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="72">
+                <IconStyle id="73">
+                    <color>ffd82826</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="74">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="75">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <Style id="247">
+                <IconStyle id="248">
+                    <color>ffdd2821</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1.2</scale>
+                    <heading>0</heading>
+                    <Icon id="249">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+                <LabelStyle id="250">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                </LabelStyle>
+            </Style>
+            <name>village biome</name>
+            <Placemark id="14">
+                <name>Sampling from village biome</name>
+                <description>&lt;b&gt;Sampling from village biome&lt;/b&gt;&lt;br&gt;Date: 2026-06-13&lt;br&gt;Altitude: 730 m&lt;br&gt;Coordinates: 46.58519, 14.41494&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_01000246'&gt;village biome&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00005747'&gt;compost soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RAHVKxhcbYRjk1-8oQAOH-XbAtduHgTZ7JwcG9jtNfx9c'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="15">
+                    <when>2026-06-13</when>
+                </TimeStamp>
+                <styleUrl>#16</styleUrl>
+                <Point id="13">
+                    <coordinates>14.414936,46.585186,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+            <Placemark id="70">
+                <name>Sampling from village biome</name>
+                <description>&lt;b&gt;Sampling from village biome&lt;/b&gt;&lt;br&gt;Date: 2026-06-21&lt;br&gt;Altitude: 500 m&lt;br&gt;Coordinates: 47.97825, 16.02746&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_01000246'&gt;village biome&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00002263'&gt;garden soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RAooGJwDzslcm9kANNxZvglOy0AMSBv1r2IzbzxHMZwz4'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="71">
+                    <when>2026-06-21</when>
+                </TimeStamp>
+                <styleUrl>#72</styleUrl>
+                <Point id="69">
+                    <coordinates>16.0274585,47.9782484,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+            <Placemark id="245">
+                <name>Sampling from village biome</name>
+                <description>&lt;b&gt;Sampling from village biome&lt;/b&gt;&lt;br&gt;Date: 2026-07-23&lt;br&gt;Altitude: 460 m&lt;br&gt;Coordinates: 46.66037, 14.62804&lt;br&gt;Biome: &lt;a href='http://purl.obolibrary.org/obo/ENVO_01000246'&gt;village biome&lt;/a&gt;&lt;br&gt;Material: &lt;a href='http://purl.obolibrary.org/obo/ENVO_00002263'&gt;garden soil&lt;/a&gt;&lt;br&gt;Purpose: Biodiversity&lt;br&gt;&lt;br&gt;&lt;a href='https://w3id.org/np/RA9MzNNok4Unk7MAT_qN8bBDT--2BsYCnXNvN10JmDuvo'&gt;Open nanopublication&lt;/a&gt;</description>
+                <TimeStamp id="246">
+                    <when>2026-07-23</when>
+                </TimeStamp>
+                <styleUrl>#247</styleUrl>
+                <Point id="244">
+                    <coordinates>14.628042,46.660367,0.0</coordinates>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
